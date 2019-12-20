@@ -34,9 +34,9 @@ is also provided for comparison.
 
 Smaller values are better. The test hardware was as follows:
 
-Windows 10
-.NET Core 3.0
-i7-6700 3.40GHz
+* Windows 10
+* .NET Core 3.0
+* i7-6700 3.40GHz
 
 In generating the error result, 1000,000 pseudo random values were generated in the range 0
 to 1E7 and added to the accumulator. The same psuedo random sequence was then re-generated, but
