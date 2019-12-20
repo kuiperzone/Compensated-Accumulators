@@ -24,14 +24,14 @@ PairwiseSum uses a recursive approach, however, with input values buffered and c
 Performance and error results are presented below. An implementation of a "naive summation"
 is also provided for comparison.
 
-`
-ALGORITHM         Add()         Error
-KahanSum          6.24 ns       1.86E-09
-NeumaierSum       4.22 ns       0
-KleinSum          5.59 ns       0
-PairwiseSum       9.71 ns       0.015
-NaiveSum          3.67 ns       0.111
-`
+| ALGORITHM | Add() | Error
+| :------------ | :-------- | :-------------
+| KahanSum      | 6.24 ns   | 1.86E-09
+| NeumaierSum   | 4.22 ns   | 0
+| KleinSum      | 5.59 ns   | 0
+| PairwiseSum   | 9.71 ns   | 0.015
+| NaiveSum      | 3.67 ns   | 0.111
+
 Smaller values are better. The test hardware was as follows:
 
 Windows 10
