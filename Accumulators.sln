@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompensatedAccumulators", "CompensatedAccumulators\CompensatedAccumulators.csproj", "{B44E95B2-6403-4C76-873E-C338502A8CAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompensatedAccumulators.Test", "CompensatedAccumulators.Test\CompensatedAccumulators.Test.csproj", "{E9E5D48D-A70E-4D08-9EA0-CC9EC712576F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44E95B2-6403-4C76-873E-C338502A8CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44E95B2-6403-4C76-873E-C338502A8CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44E95B2-6403-4C76-873E-C338502A8CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44E95B2-6403-4C76-873E-C338502A8CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E5D48D-A70E-4D08-9EA0-CC9EC712576F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E5D48D-A70E-4D08-9EA0-CC9EC712576F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E5D48D-A70E-4D08-9EA0-CC9EC712576F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E5D48D-A70E-4D08-9EA0-CC9EC712576F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B955F72-BAF7-4423-A591-D2AE25DF73A8}
+	EndGlobalSection
+EndGlobal
